@@ -1,4 +1,5 @@
 # Should be capable of full setup from a blank c++ docker env
+# Try running with `bash -e setup.sh` (the -e option fails if any commands fail)
 sudo apt update
 sudo apt install gcc gcc-arm-none-eabi
 
