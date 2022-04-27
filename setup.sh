@@ -20,7 +20,7 @@ echo "----------------------------------------------------------------"
 echo "-                 Installing Python & C tools                  -"
 echo "----------------------------------------------------------------"
 brew install gcc make cmake python
-pip3 install tensorflow tensorflowjs flask
+pip3 install tensorflow tensorflowjs flask flask-cors
 pip3 install --extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime
 
 # Repository setup
