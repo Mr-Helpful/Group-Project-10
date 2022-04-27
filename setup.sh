@@ -1,4 +1,4 @@
-# Should be capable of full setup from a blank linux env
+# Should be capable of full setup from a blank c++ docker env
 sudo apt update
 sudo apt install gcc gcc-arm-none-eabi
 
