@@ -18,6 +18,6 @@ Or just run `bash -e setup.sh` if you're comfortable with running some bash scri
 
 ## Deployment
 
-Lauch the server with `python3 app.py`. By default, this serves `http://localhost:3000/` which can be changed in `app.py`.
+Lauch the server with `python3 app.py`. By default, this serves `http://localhost:5000/convert` which can be changed in `app.py`.
 
 The server expects a POST request of the form as in Tensorflow JS's `model.save(*server address*)` and will respond with the built MicroPython hex file `MICROBIT.hex`.
